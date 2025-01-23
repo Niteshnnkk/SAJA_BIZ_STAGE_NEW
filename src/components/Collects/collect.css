@@ -1,0 +1,226 @@
+/* Dashboard Layout */
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  /* background-color: #f8f9fa; */
+}
+
+/* .my-modal {
+  height: 400px;
+  overflow-y: scroll;
+} */
+
+
+.modal-content {
+  border-radius: 10px !important;
+}
+
+.modal-body {
+  height: 300px;
+  padding: 20px;
+  overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.create-button {
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+/* Graph Section */
+.graphs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
+.graph {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 48%;
+  text-align: center;
+}
+
+.graph h4 {
+  margin: 0;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chart {
+  margin: 20px 0;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart .pie-chart {
+  width: 100%;
+  height: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+  right: 45px;
+}
+
+.pointer .successful-pointer,
+.pointer .failed-pointer {
+  display: inline-flex;
+  align-items: center;
+  justify-items: left;
+  font-size: 14px;
+}
+
+.pointer .successful-pointer .pointer-color {
+  width: 10px;
+  margin-right: 10px;
+  height: 10px;
+  background-color: #007bff;
+}
+
+.pointer .failed-pointer .pointer-color {
+  width: 10px;
+  margin-right: 10px;
+  height: 10px;
+  background-color: #555;
+}
+
+
+/* Message History Table */
+.message-history {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  /* padding: 20px; */
+}
+
+.message-history h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.message-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.message-history th {
+  color: #007bff;
+  padding: 10px 10px 10px 40px;
+  text-align: left;
+}
+
+.message-history th,
+.message-history td {
+  /* border: 1px solid #ddd; */
+  padding: 10px 10px 10px 40px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.message-history th {
+  background-color: #f1f1f1;
+}
+
+.action-button {
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.action-button svg {
+  font-size: 14px;
+}
+
+.action-button.orange {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.action-button.blue {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.action-button.green {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.download-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

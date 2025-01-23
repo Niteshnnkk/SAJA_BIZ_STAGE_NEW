@@ -1,0 +1,108 @@
+.questitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Publishquestitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.quesContainer {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-height: 550px;
+    overflow-y: scroll;
+    scrollbar-color: lightgrey;
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+
+.PublisquesContainer {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-color: lightgrey;
+    scrollbar-width: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enterTextInput {
+    outline: none;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+
+.selectContainer {
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    background-color: inherit;
+}
+
+.selectContainer:focus {
+    border: none !important;
+    outline: none !important;
+
+}
+
+.selectDivs {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PublishPreviewHeader {
+    width: 100%;
+    /* border: 1px solid red; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid grey;
+}
+
+
+.publishSurveyLogoContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.customButton {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(99, 99, 99);
+        color: white;
+    }
+}

@@ -1,0 +1,27 @@
+.additional-options {
+    /* background-color: #f0f0f0; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.additional-options h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.additional-options .answerInput {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}

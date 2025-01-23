@@ -1,0 +1,73 @@
+{
+  "name": "mysurvey",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@canvasjs/charts": "^3.10.17",
+    "@canvasjs/react-charts": "^1.0.2",
+    "@mui/icons-material": "^6.1.8",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.6",
+    "dayjs": "^1.11.13",
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.11.11",
+    "html2pdf.js": "^0.10.2",
+    "http-proxy-middleware": "^3.0.3",
+    "moment": "^2.30.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.8.4",
+    "qrcode.react": "^4.1.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-bootstrap-icons": "^1.11.4",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^7.6.0",
+    "react-dom": "^18.3.1",
+    "react-draggable": "^4.4.6",
+    "react-gauge-chart": "^0.5.1",
+    "react-gauge-component": "^1.2.62",
+    "react-icons": "^5.3.0",
+    "react-minimal-pie-chart": "^8.4.1",
+    "react-multi-select-component": "^4.3.4",
+    "react-qr-code": "^2.0.15",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.3",
+    "react-toastify": "^10.0.6",
+    "rsuite": "^5.75.0",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "react-scripts deploy",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

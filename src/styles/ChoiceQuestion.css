@@ -1,0 +1,53 @@
+.option-container {
+  position: relative;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+
+.dropdown-button-container {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.option-container .form-control {
+  padding: 10px;
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid #a5adbc;
+}
+
+.option-container {
+  width: 80%;
+  /* border: 1px solid blue; */
+}
+
+.optionWidth {
+  /* background: #fff; */
+  padding: 40px !important;
+  /* border-radius: 15px !important;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, .2);
+  border: 2px solid #e6e9ef !important; */
+}
+
+/* New styles for dropdown menu */
+.dropdown-menu {
+  z-index: 1050;
+  /* Adjust this value as needed */
+}
+
+/* Ensure the dropdown button is above the input but below the dropdown menu */
+.dropdown-button-container {
+  z-index: 10;
+  padding: 5px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(241, 241, 241);
+  /* Should be less than dropdown-menu but more than surrounding elements */
+}

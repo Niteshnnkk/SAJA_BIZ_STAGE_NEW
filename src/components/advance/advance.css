@@ -1,0 +1,33 @@
+.admain {
+    background-color: white;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+
+
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.create-quota {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.quota-container {
+    background-color: thistle;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+

@@ -1,0 +1,54 @@
+.topInput input[type="text"] {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding-left: 0px;
+  border-radius: 0px;
+}
+
+.topInput {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.topInput span {
+  line-height: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.borderClass {
+  border-bottom: 1px solid #a5adbc !important;
+  transition: border-bottom 0.3s ease;
+}
+
+.dNone {
+  display: none;
+}
+
+.ShadowClass {
+  display: block;
+  background: #fff;
+  padding: 40px !important;
+  border-radius: 15px !important;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, .2);
+  border: 2px solid #e6e9ef !important;
+}
+
+.iconLogic {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.iconLogic:hover {
+  background: rgb(247, 247, 249);
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  /* line-height: 35px; */
+}

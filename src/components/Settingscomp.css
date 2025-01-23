@@ -1,0 +1,102 @@
+.leftPart {
+    width: 25%;
+    background: #fff;
+    /* padding: 20px; */
+    border-radius: 8px;
+    min-height: 100vh;
+}
+
+.tab-pane.fade.show.active {
+    border-left: none !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: none !important;
+    color: #000 !important;
+    border-bottom: 2px solid #000 !important;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.nav-pills .nav-link {
+    border: none !important;
+}
+
+.nav-link {
+    color: #000;
+    padding: 0px;
+}
+
+.nav-link .active {
+    border-bottom: 2px solid #000;
+
+}
+
+.rightPart {
+    width: 75%;
+    border-radius: 8px;
+    /* border: 1px solid red; */
+    /* max-height: 100vh; */
+    /* overflow-y: scroll; */
+    scrollbar-width: thin;
+}
+
+.toggle-group {
+    margin: 0px auto;
+    padding: 0px 13px;
+}
+
+.toggle-group .form-check {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.toggle-group .form-check:last-child {
+    border-bottom: none;
+}
+
+.tabs {
+    color: black;
+    font-weight: 600;
+}
+
+.tabsContainer {
+    border-bottom: 1px solid lightgray;
+}
+
+.iconsContainer {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.leftPartDivs {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    padding: 8px;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.leftPartDivs:hover {
+    background-color: rgb(237, 232, 232);
+}
+
+.settingHeading {
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.SettinglongText {
+    font-size: 13px;
+    color: grey;
+    font-weight: 500;
+}

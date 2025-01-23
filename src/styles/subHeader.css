@@ -1,0 +1,9 @@
+.searchInput{
+    border: none;
+    background-color: rgb(247, 247, 249);
+}
+
+.searchInput:focus{
+    border: none;
+    outline: none;
+}

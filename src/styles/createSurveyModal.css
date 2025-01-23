@@ -1,0 +1,14 @@
+.custom-modal {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-modal .modal-dialog {
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}

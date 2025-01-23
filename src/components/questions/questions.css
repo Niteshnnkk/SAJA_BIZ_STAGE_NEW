@@ -1,0 +1,152 @@
+.addoption {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+.addoption:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.readOnly {
+    background-color: #dee2ea;
+
+}
+
+.inputDecorator {
+    border: none !important;
+    outline: none !important;
+}
+
+.readOnly:focus {
+    background-color: #dee2ea;
+}
+
+.showAddMoreText {
+    display: none;
+}
+
+.addMore {
+    margin-top: 10px;
+    background: rgb(241, 241, 241) !important;
+    color: black !important;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    /* Add any additional styles here */
+}
+
+.addMore:hover .showAddMoreText {
+    display: block;
+
+}
+
+.textBox {
+    border: none;
+    outline: none;
+    font-size: 22px;
+    width: 100%;
+    padding: 5px;
+    padding-top: 20px;
+    background-color: inherit;
+}
+
+.textBox:focus {
+
+    /* border: none; */
+    border-bottom: 1px solid gray;
+    /* background-color:  red; */
+}
+
+.yourAns {
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 2px solid grey;
+    background-color: inherit;
+
+}
+
+.selectContainer {
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    background-color: inherit;
+}
+
+.selectContainer:focus {
+    border: none !important;
+    outline: none !important;
+
+}
+
+.subtext {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px !important;
+}
+
+.input_image_container {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+
+/* Ensure that the label acts like a button */
+.npsRating input[type="radio"]:checked+.form-check-label {
+    border: 2px solid #007bff;
+    /* Customize the color of the border */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Optional: add shadow for better visibility */
+}
+
+/* Optionally add a hover effect */
+.npsRating .form-check-label {
+    cursor: pointer;
+    transition: border 0.2s ease-in-out;
+}
+
+.npsRating .form-check-label:hover {
+    border: 2px solid #0056b3;
+    /* Border color on hover */
+}
+
+.multi_nps_row_input{
+    border: none;
+    outline: none;
+    width : 100px;
+    background-color: inherit;
+}
+
+.multi_nps_row_input:focus{
+    border-bottom: 1px solid grey;
+}
+
+.piping_main{
+    /* width: 200px; */
+    border-radius: 3px;
+    background-color: #222f3e;
+    padding: 7px;
+    position: absolute;
+    bottom: -27px;
+    z-index: 999;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    /* font-size: 5px; */
+}
+
+.piping_main span{
+    font-size: 15px;
+}

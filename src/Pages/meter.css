@@ -1,0 +1,59 @@
+.meter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* height: 400px; */
+  }
+
+  
+  #gauge-chart {
+    width: 100%;
+    max-width: 400px; /* Adjust for responsiveness */
+  }
+  
+  .nps-score {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .nps-score span {
+    color: #000;
+  }
+
+  .meter-container {
+    position: relative;
+   
+    /* margin: 20px auto; */
+  }
+  
+  .threshold-labels {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Prevent interactions with labels */
+  }
+  
+  .threshold {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000; /* Adjust color */
+  }
+  
+  .nps-score {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
